@@ -1,0 +1,110 @@
+/*common staet*/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+     
+}
+
+/*header start*/
+header{
+    padding: 20px 0;
+    
+    background-color: #483928;
+}
+.container{
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+    color: #fff;
+  
+     
+}
+.bcontiner{
+  
+    box-shadow: 0 4px #e6e6e6;
+}
+.logo{
+    width: 20%; 
+    float: left; 
+    padding-top: 10px;
+}
+.logo a{
+      display: block;
+}
+.logo a img{
+    width: 100%;
+
+}
+.menu{
+    width: 60%;
+ 
+    float: right;
+
+ 
+}
+.menu ul{
+    float: right;
+  
+}
+.menu ul li{
+    list-style: none;
+    float: left;
+
+
+}
+.menu ul li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+  
+}
+.menu ul li :last-child{
+    padding-right: 15px;
+}
+.menu ul li a:hover{
+    color:#008aff;
+}
+.btn{
+    padding: 10px 15px;
+    color: #dde4eb;
+    background-color: rgb(15, 15, 15);
+    font-size: 20px;
+    transition: 0.5 s;
+}
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+.cont{
+    padding-bottom: 50px;
+    background-image: url("image/header-bg\ \(2\).jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: scroll;
+    color: #fff;
+    padding-left: 50px;
+
+}
+.t1{
+    font-size: 20px;
+    padding-top:100px
+
+}
+.t2{
+    width: 60%;
+    font-size: 52px;
+    font-weight: 900;
+}
+
+.btn2{
+    color: black;
+    background-color: #fff;
+    padding: 15px 40px;
+    font-size: 20px;
+    margin-left: 20px;
+}
